@@ -1,0 +1,26 @@
+#sideBar {
+    display: grid;
+    /* justify-items: center; */
+    width: 20%;
+    border: solid;
+    padding: 2%;
+}
+
+#personalInfoForm {
+    display: grid;
+}
+
+#education, #personalInfo, #workHistory {
+    display: grid;
+    /* justify-items: center; */
+    /* width: 100%; */
+
+}
+
+#educationForm{
+    display: grid;
+}
+
+#workHistoryForm {
+    display: grid;
+}
