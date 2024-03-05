@@ -1,3 +1,7 @@
+#container {
+    display: flex;
+}
+
 #sideBar {
     display: grid;
     /* justify-items: center; */
