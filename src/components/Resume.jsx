@@ -2,11 +2,11 @@ import { useState } from "react"
 
 
 function Resume() {
-    const [firstName, setFirstName] = useState('')
-    const [lastName, setLastName] = useState('')
-    const [phoneNumber, setPhoneNumber] = useState('')
-    const [email, setEmail] = useState('')
-    const [address, setAddress] = useState('')
+    // const [firstName, setFirstName] = useState('')
+    // const [lastName, setLastName] = useState('')
+    // const [phoneNumber, setPhoneNumber] = useState('')
+    // const [email, setEmail] = useState('')
+    // const [address, setAddress] = useState('')
 
     const [schoolName, setSchoolName] = useState('')
     const [degreeLevel, setDegreeLevel] = useState('')
@@ -22,7 +22,7 @@ function Resume() {
     return (
     <div id="container">
         <div id="sideBar">
-        <div id='personalInfo'>
+        {/* <div id='personalInfo'>
         <h1>Personal Information</h1>
         <form id="personalInfoForm" action="" > 
             <label htmlFor="firstName">First Name</label>
@@ -36,7 +36,7 @@ function Resume() {
             <label htmlFor="address">Address</label>
             <input type="text" id='address' name='address'onChange={(event) => setAddress(event.target.value)}/>
         </form>
-        </div>
+        </div> */}
         <div id='education'>
         <h1>Education</h1>
         <form id="educationForm" action="">
@@ -65,7 +65,7 @@ function Resume() {
         </div>
         </div>
         <div id="resume">
-            <div id="contactInfo">
+            {/* <div id="contactInfo">
                 <h2>Contact Information</h2>
                 <label htmlFor="firstNameValue"></label>
                 <input type="text" name="firstNameValue" id="firstNameValue" value={firstName} placeholder="First Name"/>
@@ -77,7 +77,7 @@ function Resume() {
                 <input type="email" name="emailValue"  id="emailValue" value={email} placeholder="Email"/>
                 <label htmlFor="addressValue"></label>
                 <input type="text" name="addressValue" id="addressValue" value={address} placeholder="Address"/>
-            </div>
+            </div> */}
             <div id="educationInfor">
                 <h2>Education</h2>
                 <label htmlFor="schoolNameValue"></label>

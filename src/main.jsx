@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-// import SideBar from './Sidebar.jsx'
 import Resume from './components/Resume.jsx'
+import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <SideBar/> */}
+    <App/>
     <Resume/>
   </React.StrictMode>,
 )
