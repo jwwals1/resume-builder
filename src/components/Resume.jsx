@@ -1,27 +1,27 @@
-import { useState } from "react"
+// import { useState } from "react"
 
 
-function Resume() {
+// function Resume() {
     // const [firstName, setFirstName] = useState('')
     // const [lastName, setLastName] = useState('')
     // const [phoneNumber, setPhoneNumber] = useState('')
     // const [email, setEmail] = useState('')
     // const [address, setAddress] = useState('')
 
-    const [schoolName, setSchoolName] = useState('')
-    const [degreeLevel, setDegreeLevel] = useState('')
-    const [graduationDate, setGraduationDate] = useState('')
+    // const [schoolName, setSchoolName] = useState('')
+    // const [degreeLevel, setDegreeLevel] = useState('')
+    // const [graduationDate, setGraduationDate] = useState('')
 
-    const [jobTitle, setJobTitle] = useState('')
-    const [companyName, setCompanyName] = useState('')
-    const [jobDetails, setJobDetails] = useState('')
-    const [startDate, setStartDate] = useState('')
-    const [endDate, setEndDate] = useState('')
+    // const [jobTitle, setJobTitle] = useState('')
+    // const [companyName, setCompanyName] = useState('')
+    // const [jobDetails, setJobDetails] = useState('')
+    // const [startDate, setStartDate] = useState('')
+    // const [endDate, setEndDate] = useState('')
 
 
-    return (
-    <div id="container">
-        <div id="sideBar">
+    // return (
+    // <div id="container">
+    //     <div id="sideBar">
         {/* <div id='personalInfo'>
         <h1>Personal Information</h1>
         <form id="personalInfoForm" action="" > 
@@ -37,7 +37,7 @@ function Resume() {
             <input type="text" id='address' name='address'onChange={(event) => setAddress(event.target.value)}/>
         </form>
         </div> */}
-        <div id='education'>
+        {/* <div id='education'>
         <h1>Education</h1>
         <form id="educationForm" action="">
             <label htmlFor="schoolName">Name of School</label>
@@ -47,8 +47,8 @@ function Resume() {
             <label htmlFor="dateGraduated">Date of Graduation</label>
             <input type="text" id='dateGraduated' name='dateGraduated' onChange={(event) => setGraduationDate(event.target.value)}/>
         </form>
-        </div>
-        <div id='workHistory'>
+        </div> */}
+        {/* <div id='workHistory'>
         <form action="" id="workHistoryForm">
         <h1>Work History</h1>
             <label htmlFor="jobTitle">Job Title</label>
@@ -62,9 +62,9 @@ function Resume() {
             <label htmlFor="endDate">End Date</label>
             <input type="text" id='endDate' name='endDate'onChange={(event) => setEndDate(event.target.value)}/> 
         </form>
-        </div>
-        </div>
-        <div id="resume">
+        </div> */}
+        // </div>
+        // <div id="resume">
             {/* <div id="contactInfo">
                 <h2>Contact Information</h2>
                 <label htmlFor="firstNameValue"></label>
@@ -78,7 +78,7 @@ function Resume() {
                 <label htmlFor="addressValue"></label>
                 <input type="text" name="addressValue" id="addressValue" value={address} placeholder="Address"/>
             </div> */}
-            <div id="educationInfor">
+            {/* <div id="educationInfor">
                 <h2>Education</h2>
                 <label htmlFor="schoolNameValue"></label>
                 <input type="text" value={schoolName} name="schoolNameValue" id="schoolNameValue" placeholder="School Name"/>
@@ -86,8 +86,8 @@ function Resume() {
                 <input type="text"  value={degreeLevel} name="degreeLevelValue" id="degreeLevelValue" placeholder="Level of Degree"/>
                 <label htmlFor="graduationDateVaule"></label>
                 <input type="text" value={graduationDate} name="graduationDateVaule" id="graduationDateVaule" placeholder="Date of Graduation"/>
-            </div>
-            <div id="workHistoryInfo">
+            </div> */}
+            {/* <div id="workHistoryInfo">
                 <h2>Work Information</h2>
                 <label htmlFor="jobTitleValue"></label>
                 <input type="text" value={jobTitle} name="jobTitleValue" id="jobTitleValue" placeholder="Job Title"/>
@@ -99,9 +99,9 @@ function Resume() {
                 <input type="text" value={startDate} name="startDateValue" id="startDateValue" placeholder="Start Date"/>
                 <label htmlFor="endDateValue"></label>
                 <input type="text" value={endDate} name="endDateValue" id="endDateValue" placeholder="End Date"/>
-            </div>
-        </div>
-        </div>
-    )
-    }
-export default Resume
+            </div> */}
+//         </div>
+//         </div>
+//     )
+//     }
+// export default Resume
