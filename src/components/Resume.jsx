@@ -1,4 +1,4 @@
-export default function Resume({personalValues}) {
+export default function Resume({personalValues, educationValues, workValues}) {
     return (
         <>
             <div className="container">
@@ -8,6 +8,18 @@ export default function Resume({personalValues}) {
                     <div className="phoneNumber">{personalValues.phoneNumber}</div>
                     <div className="email">{personalValues.email}</div>
                     <div className="address">{personalValues.address}</div>
+                </div>
+                <div className="educationInfo">
+                    <div className="schoolName">{educationValues.schoolName}</div>
+                    <div className="degreeLevel">{educationValues.degreeLevel}</div>
+                    <div className="dateGraduated">{educationValues.dateGraduated}</div>
+                </div>
+                <div className="workInfo">
+                    <div className="jobTitle">{workValues.jobTitle}</div>
+                    <div className="companyName">{workValues.companyName}</div>
+                    <div className="jobDetails">{workValues.jobDetails}</div>
+                    <div className="startDate">{workValues.startDate}</div>
+                    <div className="endDate">{workValues.endDate}</div>
                 </div>
             </div>
         </>

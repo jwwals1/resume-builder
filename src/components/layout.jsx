@@ -30,7 +30,9 @@ export default function Layout() {
                     workValues={workValues} onChange={changeWork}/>
             </div>
             <div className="resume">
-                <Resume personalValues={personalValues}/>
+                <Resume personalValues={personalValues}
+                educationValues={educationValues}
+                workValues={workValues}/>
             </div>
         </div>
         </>
