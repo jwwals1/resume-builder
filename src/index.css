@@ -1,10 +1,9 @@
-#container {
+/* #container {
     display: flex;
 }
 
 #sideBar {
     display: grid;
-    /* justify-items: center; */
     width: 20%;
     border: solid;
     padding: 2%;
@@ -16,9 +15,6 @@
 
 #education, #personalInfo, #workHistory {
     display: grid;
-    /* justify-items: center; */
-    /* width: 100%; */
-
 }
 
 #educationForm{
@@ -27,4 +23,4 @@
 
 #workHistoryForm {
     display: grid;
-}
+} */

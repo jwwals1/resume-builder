@@ -1,3 +1,21 @@
+export default function Resume({personalValues}) {
+    return (
+        <>
+            <div className="container">
+                <div className="personalInfo">
+                    <div className="firstName">{personalValues.firstName}</div>
+                    <div className="lastName">{personalValues.lastName}</div>
+                    <div className="phoneNumber">{personalValues.phoneNumber}</div>
+                    <div className="email">{personalValues.email}</div>
+                    <div className="address">{personalValues.address}</div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+
+
 // import { useState } from "react"
 
 
