@@ -1,26 +1,39 @@
-/* #container {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.userInput {
+    border: 2px solid;
+    padding: 5px;
+}
+
+.resume {
+    background-color: lightgreen;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+}
+
+#personalInfo, #education, #workHistory {
     display: flex;
+    justify-content: center;
 }
 
-#sideBar {
-    display: grid;
-    width: 20%;
-    border: solid;
-    padding: 2%;
-}
-
-#personalInfoForm {
-    display: grid;
-}
-
-#education, #personalInfo, #workHistory {
-    display: grid;
-}
-
-#educationForm{
-    display: grid;
-}
-
-#workHistoryForm {
-    display: grid;
+/* .personDivs {
+    display: flex;
+    justify-content: center;
 } */
+
+.personalLabel, .educationLabel, .workLabel {
+    display: grid;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}

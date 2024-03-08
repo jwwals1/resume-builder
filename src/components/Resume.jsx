@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Resume({personalValues, educationValues, workValues}) {
     return (
         <>
