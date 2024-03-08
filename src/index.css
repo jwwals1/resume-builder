@@ -1,15 +1,24 @@
-.container {
+body {
+    /* margin: 25px; */
+}
+
+.mainContainer {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
 .userInput {
-    border: 2px solid;
-    padding: 5px;
+    /* border: 2px solid; */
+    /* padding: 5px; */
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, .5) 0px 5px 15px;
+    border-radius: 25px;
 }
 
-.resume {
-    background-color: lightgreen;
+.resumeContainer {
+    display: grid;
+    box-shadow:  rgba(0, 0, 0, .5) 0px 5px 15px;
+    margin: 30px;
 }
 
 h1 {
@@ -36,4 +45,55 @@ input {
     border: none;
     border-bottom: 1px solid;
     margin-bottom: 20px;
+}
+
+.resume {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    
+}
+
+h2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfo {
+    display: grid;
+    justify-items: center;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+.educationInfo, .workInfo {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+.personalContent {
+    display: flex;
+    justify-content: center;
+}
+
+.nameTitle {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.phoneNumber, .email {
+    margin-right: 40px;
+}
+
+.infoTitles {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+    content: attr(data-text);
+    color: lightgray;
 }

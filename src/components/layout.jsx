@@ -20,7 +20,7 @@ export default function Layout() {
 
     return (
         <>
-        <div className="container">
+        <div className="mainContainer">
             <div className="userInput">
                 <PersonalInfo
                     personalValues={personalValues} onChange={changePersonal}/>
@@ -29,7 +29,7 @@ export default function Layout() {
                 <WorkInfo 
                     workValues={workValues} onChange={changeWork}/>
             </div>
-            <div className="resume">
+            <div className="resumeContainer">
                 <Resume personalValues={personalValues}
                 educationValues={educationValues}
                 workValues={workValues}/>
