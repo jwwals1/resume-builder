@@ -9,7 +9,7 @@ export default function Layout() {
     function changePersonal (event) {
         setPersonalValues({ ...personalValues, [event.target.id]: event.target.value})
     }
-    const [educationValues, setEducationValues] = useState({schoolName: '', degreeLevel: '', graduationDate:''}) 
+    const [educationValues, setEducationValues] = useState({schoolName: '', schoolLocation: '', degreeLevel: '', graduationDate:''}) 
         function changeEducation (event) {
             setEducationValues({...educationValues, [event.target.id]: event.target.value})
     }
