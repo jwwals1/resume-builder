@@ -22,6 +22,7 @@ export default function Layout() {
         <>
         <div className="mainContainer">
             <div className="userInput">
+                <h3 id="yourInfoTitle">Enter Your Information Below</h3>
                 <PersonalInfo
                     personalValues={personalValues} onChange={changePersonal}/>
                 <EducationInfo 

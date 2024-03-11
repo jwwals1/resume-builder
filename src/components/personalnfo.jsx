@@ -16,7 +16,7 @@ export default function PersonalInfo({personalValues, onChange}) {
     return (
         <>
         <div id="personDiv">
-            <button onClick={closeForm} className="personalButton">Personal Information</button>
+            <button onClick={closeForm} className="button">Personal Information</button>
             <div id='personalInfo'>
                 <form id="personalInfoForm" action=""> 
                     <div>
@@ -46,7 +46,7 @@ export default function PersonalInfo({personalValues, onChange}) {
     )} else {
         return (
         <div id="personDiv">
-            <button onClick={openForm} className="personalButton">Personal Information</button>
+            <button onClick={openForm} className="button">Personal Information</button>
         </div>
         )
     }

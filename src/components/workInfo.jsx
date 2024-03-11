@@ -16,7 +16,7 @@ function WorkInfo({workValues, onChange}) {
     return (
         <>
         <div id="workDiv">
-            <button onClick={openForm} className="workButton">Work Information</button>
+            <button onClick={openForm} className="button">Work Information</button>
             <div id='workHistory'>
             <form action="" id="workHistoryForm">
                 <div>
@@ -46,7 +46,7 @@ function WorkInfo({workValues, onChange}) {
     )} else {
         return (
             <div id="workDiv">
-                <button onClick={closeForm} className="workButton">Work Information</button>
+                <button onClick={closeForm} className="button">Work Information</button>
             </div>
             )
     }

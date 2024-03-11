@@ -15,7 +15,7 @@ function EducationInfo ({educationValues, onChange}) {
     return (
         <>
         <div id="educationDiv">
-        <button onClick={openForm} className="educationButton">Education Information</button>
+        <button onClick={openForm} className="button">Education Information</button>
             <div id='education'>
             <form id="educationForm" action="">
                 <div>
@@ -43,7 +43,7 @@ function EducationInfo ({educationValues, onChange}) {
         return (
             <>
             <div id="educationDiv">
-                <button onClick={closeForm} className="educationButton">Education Information</button>
+                <button onClick={closeForm} className="button">Education Information</button>
             </div>
             </>
     )}
