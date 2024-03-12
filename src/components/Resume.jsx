@@ -15,19 +15,27 @@ export default function Resume({personalValues, educationValues, workValues}) {
                     </div>
                 </div>
                 <div className="educationInfo">
-                    <h2 className="infoTitles">Education</h2>
-                    <div className="schoolName" contentEditable='true' data-text="School Name" suppressContentEditableWarning={true}>{educationValues.schoolName}</div>
-                    <div className="schoolLocation" contentEditable='true' data-text="School Location" suppressContentEditableWarning={true}>{educationValues.schoolLocation}</div>
-                    <div className="degreeLevel" contentEditable='true' data-text="Degree Level" suppressContentEditableWarning={true}>{educationValues.degreeLevel}</div>
-                    <div className="dateGraduated" contentEditable='true' data-text="Date Graduated" suppressContentEditableWarning={true}>{educationValues.dateGraduated}</div>
+                <h2 className="infoTitles">Education</h2>
+                    <div>
+                        <div className="schoolName" contentEditable='true' data-text="School Name" suppressContentEditableWarning={true}>{educationValues.schoolName}</div><br />
+                        <div className="schoolLocation" contentEditable='true' data-text="School Location" suppressContentEditableWarning={true}>{educationValues.schoolLocation}</div>
+                    </div>
+                    <div>
+                        <div className="degreeLevel" contentEditable='true' data-text="Degree Level" suppressContentEditableWarning={true}>{educationValues.degreeLevel}</div><br />
+                        <div className="dateGraduated" contentEditable='true' data-text="Date Graduated" suppressContentEditableWarning={true}>{educationValues.dateGraduated}</div>
+                    </div>
                 </div>
                 <div className="workInfo">
                     <h2 className="infoTitles">Work History</h2>
-                    <div className="jobTitle" contentEditable='true' data-text="Job Title" suppressContentEditableWarning={true}>{workValues.jobTitle}</div>
-                    <div className="companyName" contentEditable='true' data-text="Company Name" suppressContentEditableWarning={true}>{workValues.companyName}</div>
-                    <div className="jobDetails" contentEditable='true' data-text="Job Details" suppressContentEditableWarning={true}>{workValues.jobDetails}</div>
-                    <div className="startDate" contentEditable='true' data-text="Start Date" suppressContentEditableWarning={true}>{workValues.startDate}</div>
-                    <div className="endDate" contentEditable='true' data-text="End Date" suppressContentEditableWarning={true}>{workValues.endDate}</div>
+                    <div>
+                        <div className="jobTitle" contentEditable='true' data-text="Job Title" suppressContentEditableWarning={true}>{workValues.jobTitle}</div><br />
+                        <div className="companyName" contentEditable='true' data-text="Company Name" suppressContentEditableWarning={true}>{workValues.companyName}</div>
+                    </div>
+                    <div>
+                        <div className="workDates" contentEditable='true' data-text="Start Date" suppressContentEditableWarning={true}>{workValues.startDate} - {workValues.endDate}</div><br />
+                        {/* <div className="endDate" contentEditable='true' data-text="End Date" suppressContentEditableWarning={true}>{workValues.endDate}</div> */}
+                        <div className="jobDetails" contentEditable='true' data-text="Job Details" suppressContentEditableWarning={true}>{workValues.jobDetails}</div>  
+                    </div>
                 </div>
             </div>
         </>

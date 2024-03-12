@@ -27,7 +27,7 @@ function EducationInfo ({educationValues, onChange}) {
                     <input type="text" id="schoolLocation" name="schoolLocation" onChange={onChange} value={educationValues.schoolLocation}/>
                 </div>
                 <div>
-                    <label className="educationLabel">Level of Degree:{' '}</label><br />
+                    <label className="educationLabel">Type of Degree:{' '}</label><br />
                     <input type="text" name="degreeLevel" id="degreeLevel" onChange={onChange} value={educationValues.degreeLevel}/>
                 </div>
                 <div>

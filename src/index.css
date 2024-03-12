@@ -18,7 +18,7 @@ body {
     display: grid;
     box-shadow:  rgba(0, 0, 0, .5) 0px 5px 15px;
     margin: 30px;
-    height: 1200px;
+    min-height: 1200px;
 }
 
 h1 {
@@ -59,17 +59,38 @@ h2 {
     justify-items: center;
     background-color: blue;
     color: white;
-    width: 100%;
+    height: 200px;
 }
+
 .educationInfo, .workInfo {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr 4fr;
+    display: grid;
+    gap: 40px;
+    justify-items: center;
+}
+
+.infoTitles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    height: 60px;
+    width: 80%;
+    background-color: lightgray;
+}
+
+/* .workInfo {
     display: grid;
     justify-items: center;
     width: 100%;
-}
+} */
 
 .personalContent {
     display: flex;
     justify-content: center;
+    margin: -30px;
 }
 
 .nameTitle {
