@@ -36,6 +36,7 @@ function EducationInfo ({educationValues, onChange}) {
                 </div>
             </form>
             </div>
+            <button>Add Education</button>
         </div>
         </>
     )
