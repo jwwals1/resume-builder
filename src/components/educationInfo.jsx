@@ -19,24 +19,23 @@ function EducationInfo ({educationValues, onChange}) {
             <div id='education'>
             <form id="educationForm" action="">
                 <div>
-                    <label className="educationLabel">Name of School:{' '}</label><br />
+                    <label className="educationLabel">Name of School:</label><br />
                     <input type="text" id='schoolName' name='schoolName' onChange={onChange} value={educationValues.schoolName}/>
                 </div>
                 <div>
-                    <label className="educationLabel">Location: {' '}</label><br />
+                    <label className="educationLabel">Location:</label><br />
                     <input type="text" id="schoolLocation" name="schoolLocation" onChange={onChange} value={educationValues.schoolLocation}/>
                 </div>
                 <div>
-                    <label className="educationLabel">Type of Degree:{' '}</label><br />
+                    <label className="educationLabel">Type of Degree:</label><br />
                     <input type="text" name="degreeLevel" id="degreeLevel" onChange={onChange} value={educationValues.degreeLevel}/>
                 </div>
                 <div>
-                    <label className="educationLabel">Date of Graduation:{' '}</label><br />
+                    <label className="educationLabel">Date of Graduation:</label><br />
                     <input type="text" id='dateGraduated' name='dateGraduated' onChange={onChange} value={educationValues.dateGraduated}/>
                 </div>
             </form>
             </div>
-            <button>Add Education</button>
         </div>
         </>
     )
